@@ -7,8 +7,12 @@ module.exports = {
     'standard'
   ],
   parserOptions: {
-    ecmaVersion: 12
+    ecmaVersion: 12,
+    sourceType: 'module'
   },
   rules: {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "space-before-function-paren": ["error", "never"]
   }
 }
